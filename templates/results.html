@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Graphs</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      .chart-container, .indicators-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+      }
+
+      .chart-container h2, .indicators-container h2 {
+        font-size: 24px;
+        font-weight: bold;
+        margin: 20px 0;
+      }
+
+      .indicator {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+      }
+
+      .indicator h3 {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 20px 0;
+      }
+
+      .chart {
+        max-width: 800px;
+        max-height: 600px;
+        width: auto;
+        height: auto;
+        border: 2px solid black;
+        box-shadow: 5px 5px 5px grey;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dcf-container" style = 'text-align:center;'>
+      <h3>Discounted Cash Flow (DCF)</h3>
+      <p style = "color:red;">{{ dcf }}</p>
+    </div>
+    
+    <div class="stock-price-container" style = 'text-align:center;'>
+      <h3>Stock Price</h3>
+      <p style = "color:green;">{{ stock_price }}</p>
+    </div>
+    <!-- enterprice valaue for stock -->
+    <div class="indicators-container" style = 'text-align:center;'>
+      <h3>Enterprise Value</h3>
+      <p style = "color:aqua;">{{ ent_value }}</p>
+    </div>
+    <div class="chart-container">
+      <h2>Candlestick Chart</h2>
+      <img class="chart" src="{{ candlestick_file }}" alt="Candlestick Chart">
+    </div>
+    
+
+    <div class="indicators-container">
+      <h2>Technical Indicators</h2>
+      <div class="indicator" id="rsi"></div>
+      <div class="indicator" id="macd"></div>
+      <div class="indicator">
+        <h3>RSI and MACD Chart</h3>
+        <img class="chart" src="{{ indicators_file }}" alt="Indicators Chart">
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+
