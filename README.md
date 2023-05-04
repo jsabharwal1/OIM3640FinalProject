@@ -26,3 +26,4 @@ Look through finance APIs on the web and choose a suitable one that a simple use
 
 **Risks**
 
+Risk of not being able to obtain reliable real-time data or not having the ability to understand the structure of the code through the documentation.
