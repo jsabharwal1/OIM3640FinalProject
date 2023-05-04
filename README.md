@@ -1,5 +1,6 @@
 # OIM3640FinalProject
-Project created by Jai Sabharwal
+**Project created by Jai Sabharwal**
+
 
 **How to access the code?**
 
@@ -17,4 +18,11 @@ Create a financial dashboard that conducts fundamental and technical analysis fo
 
 **Learning Goals**
 
-1. 
+The learning objectives are developing proficiency in Python programming, data analysis, and learning scraping techniques to interact with websites and parse data. I also want to improve my text analysis skills using python through enhanced data cleaning. 
+
+**Implementation Plan**
+
+Look through finance APIs on the web and choose a suitable one that a simple user interface. Thereafter, read through the documentation to understand how the API functions. 
+
+**Risks**
+
