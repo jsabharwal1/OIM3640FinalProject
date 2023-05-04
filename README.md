@@ -1,6 +1,6 @@
 # OIM3640FinalProject
 
-How to access the code?
+**How to access the code?**
 
 Steps:
 1. Clone this repository onto your device. It will take about 7-8 minutes. 
@@ -10,7 +10,10 @@ Steps:
 5. And you're done!! 
 
 
-Bid Idea
+**Bid Idea**
+
 Create a financial dashboard that conducts fundamental and technical analysis for every company in the S&P500.
 
-Learning Goals
+**Learning Goals**
+
+1. 
