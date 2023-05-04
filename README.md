@@ -8,3 +8,9 @@ Steps:
 3. After downloading all the libraries, simply type: ' flask run '. See below for the output you should receive. 
 4. Copy the link circled in yellow below, and paste it into a web browser.
 5. And you're done!! 
+
+
+Bid Idea
+Create a financial dashboard that conducts fundamental and technical analysis for every company in the S&P500.
+
+Learning Goals
